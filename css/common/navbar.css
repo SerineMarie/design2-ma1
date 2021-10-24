@@ -1,0 +1,34 @@
+@import "./color.css";
+.logo {
+  width: 6%;
+}
+
+nav {
+  background: var(--backgroundColor);
+  text-transform: uppercase;
+  position: relative;
+  padding-left: 5%;
+}
+
+.nav-item a {
+  color: black;
+  font-size: 1.5rem;
+}
+nav .active {
+  color: var(--oragetint);
+  text-decoration: underline;
+}
+
+.nav-item a:hover {
+  color: var(--primary);
+}
+
+.navbar-collapse {
+  padding-left: 30%;
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-collapse {
+    padding-left: 0%;
+  }
+}

@@ -1,0 +1,16 @@
+.slider img {
+  width: 90%;
+}
+
+.slider {
+  position: relative;
+  text-align: center;
+  padding-bottom: 2%;
+}
+
+.heading-button {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

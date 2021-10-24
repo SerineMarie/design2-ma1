@@ -1,0 +1,59 @@
+@import "commom/color.css";
+
+h1,
+h4 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Lora", serif;
+}
+
+h4 {
+  color: var(--primary);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.slider a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+
+.slider a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+nav {
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.heading-button {
+  font-size: 5rem;
+  font-family: "Lora", serif;
+  text-shadow: 3px 3px var(--secondary);
+}
+
+@media screen and (max-width: 991px) {
+  .heading-button {
+    font-size: 2.5rem;
+  }
+}
+
+footer a {
+  color: var(--secondaryShade);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+footer a:hover {
+  color: var(--secondaryShade);
+  text-decoration: underline;
+}
