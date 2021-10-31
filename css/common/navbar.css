@@ -6,29 +6,79 @@
 nav {
   background: var(--backgroundColor);
   text-transform: uppercase;
-  position: relative;
-  padding-left: 5%;
 }
 
-.nav-item a {
-  color: black;
+.navbar-nav a {
+  color: var(--primary);
   font-size: 1.5rem;
 }
+.navbar-nav a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+nav .navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
 nav .active {
   color: var(--oragetint);
   text-decoration: underline;
 }
 
-.nav-item a:hover {
+.navbar-collapse {
+  justify-content: center;
+  padding-right: 5%;
+}
+
+.second-menu {
+  display: flex;
+  background: var(--oragetint);
+  justify-content: space-evenly;
+}
+
+.second-menu a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.second-menu a:hover {
+  text-decoration: underline;
   color: var(--primary);
 }
 
-.navbar-collapse {
-  padding-left: 30%;
+.hamburger-label {
+  color: var(--primary);
+  padding: 10px;
+  font-size: 2.2rem;
+  display: none;
+}
+
+#hamburger-menu:checked ~ .navbar-nav {
+  display: inline-block;
+}
+
+#hamburger-menu {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
   .navbar-collapse {
     padding-left: 0%;
+  }
+
+  .second-menu {
+    flex-direction: row;
+  }
+
+  nav .navbar-nav {
+    display: none;
+  }
+
+  .hamburger-label {
+    display: block;
   }
 }

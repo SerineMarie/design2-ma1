@@ -1,0 +1,12 @@
+.card {
+  margin: 50px;
+}
+
+.top-card {
+  display: flex;
+  justify-content: center;
+}
+
+.card-body {
+  margin-top: 2%;
+}

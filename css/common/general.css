@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  background: var(--backgroundColor);
+}
+
+.content-container {
+  padding-bottom: 2%;
+}
+
+.card-body {
+  background: var(--backgroundColor);
+}
+
+.card-body .btn {
+  border: none;
+  background: var(--oragetint);
+  color: var(--secondaryShade);
+  text-transform: uppercase;
+}
+
+.icon-large {
+  width: 50px;
+}
+
+.icon-small {
+  display: none;
+}
+
+@media screen and (max-width: 997px) {
+  .icon-large {
+    display: none;
+  }
+  .icon-small {
+    display: block;
+    width: 30px;
+  }
+}
