@@ -20,22 +20,26 @@ body {
   background: var(--oragetint);
   color: var(--secondaryShade);
   text-transform: uppercase;
+  box-shadow: -3px 3px var(--secondary), -2px 2px var(--secondaryShade),
+    -1px 1px var(--secondary);
 }
 
-.icon-large {
-  width: 50px;
+.card-body .btn:hover {
+  color: var(--primary);
+  box-shadow: -5px 5px var(--secondary), -4px 4px var(--secondaryShade),
+    -3px 3px var(--secondary);
 }
 
-.icon-small {
-  display: none;
+.fab {
+  font-size: 1.8rem;
+  padding-bottom: 30%;
 }
 
-@media screen and (max-width: 997px) {
-  .icon-large {
-    display: none;
-  }
-  .icon-small {
-    display: block;
-    width: 30px;
-  }
+.fas {
+  font-size: 2rem;
+  color: var(--primary);
+}
+
+p .more-link {
+  font-size: 1rem;
 }

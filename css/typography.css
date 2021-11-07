@@ -1,19 +1,17 @@
 @import "commom/color.css";
 
-h1,
-h4 {
-  font-family: "Roboto", sans-serif;
+h1 {
+  font-family: "Roboto Mono", monospace;
 }
-
 p {
-  font-family: "Lora", serif;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 
 h4 {
+  font-family: "Roboto Mono", monospace;
   color: var(--primary);
   text-transform: uppercase;
   text-align: center;
-  font-weight: bold;
 }
 
 .slider a,
@@ -28,15 +26,22 @@ h4 {
   text-decoration: underline;
 }
 
+.btn {
+  font-family: "Cinzel", serif;
+}
+
 nav {
-  font-size: 1.2rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 500;
+}
+
+.second-menu p {
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 
 .heading {
   font-size: 5rem;
-  font-family: "Lora", serif;
-  text-shadow: 3px 3px var(--secondary);
+  text-shadow: 4px 4px var(--secondary);
   position: absolute;
   top: 45%;
   left: 50%;
@@ -55,10 +60,9 @@ nav {
 
 footer a {
   color: var(--secondaryShade);
+  font-family: "Roboto Mono", monospace;
   text-decoration: none;
   text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
   font-size: 1.2rem;
 }
 
